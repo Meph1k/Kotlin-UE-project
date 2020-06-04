@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="70dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="A linguist's journey"
+            android:textColor="#ffffff"
+            android:textSize="33dp" />
+
+        <Button
+            android:id="@+id/btn_newGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:width="200dp"
+            android:height="60dp"
+            android:background="#414345"
+            android:fontFamily="sans-serif-light"
+            android:text="New game"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp" />
+
+        <Button
+            android:id="@+id/btn_high_scores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:width="200dp"
+            android:height="60dp"
+            android:background="#414345"
+            android:fontFamily="sans-serif-light"
+            android:text="High scores"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp" />
+
+        <Button
+            android:id="@+id/btn_exitGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:width="200dp"
+            android:height="60dp"
+            android:background="#414345"
+            android:fontFamily="sans-serif-light"
+            android:text="Exit"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

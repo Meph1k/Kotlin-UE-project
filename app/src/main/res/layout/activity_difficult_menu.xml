@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DifficultMenu"
+    android:background="@drawable/bgapp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="70dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Select difficulty level"
+            android:textColor="#ffffff"
+            android:textSize="33dp" />
+
+        <Button
+            android:id="@+id/btn_easy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:width="200dp"
+            android:height="60dp"
+            android:background="#414345"
+            android:fontFamily="sans-serif-light"
+            android:text="Easy"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp" />
+
+        <Button
+            android:id="@+id/btn_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:width="200dp"
+            android:height="60dp"
+            android:background="#414345"
+            android:fontFamily="sans-serif-light"
+            android:text="Medium"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp" />
+
+        <Button
+            android:id="@+id/btn_hard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:width="200dp"
+            android:height="60dp"
+            android:background="#414345"
+            android:fontFamily="sans-serif-light"
+            android:text="Hard"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
